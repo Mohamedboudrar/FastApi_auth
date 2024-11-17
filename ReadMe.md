@@ -22,18 +22,18 @@ This is a simple authentication system built with **FastAPI** (for the backend) 
 ## Project Structure
 
 ### Backend (`FastAPI`)
-- **`app/`**: Contains FastAPI application files.
+- **`backend/`**: Contains FastAPI application files.
   - `main.py`: The entry point for the FastAPI app, defining routes and logic.
   - `models.py`: SQLAlchemy models for the database.
   - `schemas.py`: Pydantic models for data validation.
-  - `utils.py`: Utility functions for password hashing, JWT creation, etc.
+  - `auth.py`: Utility functions for password hashing, JWT creation, etc.
   - `database.py`: Database connection and session management.
 
 ### Frontend (`React`)
 - **`src/`**: Contains React application files.
   - `App.js`: Main React component to manage the app's layout.
-  - `components/`: Reusable UI components like `Login`, `Signup`, and `Dashboard`.
-  - `pages/`: React components for specific pages like `LoginPage` and `SignupPage`.
+  - `components/`: Reusable UI components from shadcn ui.
+  - `pages/`: React components for specific pages like `Login`, `Signup` and `Dashboard`.
  
 
 ## Setup
